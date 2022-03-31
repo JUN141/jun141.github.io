@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    margin: 0%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.menu {
+    display: flex;
+    justify-content:space-between;
+}
+.menu__list {
+    padding-left: 0px;
+}
+.menu__list-1 {
+    color: white;   
+    font-family: 'Maven Pro';
+    margin: 0 8px;
+    display: inline-block;
+   }
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    background-image:url(../img/landmark81.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-family: 'Maven Pro';
+    padding-top: 230px;
+    margin-left: 40px;
+    margin-top: 0px;
+    color: white;
+}
+
+.banner p {
+    font-family: 'Maven Pro';
+    margin-left: 40px;
+    color: white;
+}
+
+#main {
+    font-family: 'Maven Pro';
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.margin-left-0 {
+    margin-left: 0;
+}
+
+.size {
+    margin-bottom: 26px;
+    max-width: 100%;
+}
+
+.size__1 {
+    max-width: 100%;
+}
+
+.introduce h2 {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.introduce p {
+    padding-left: 40px;
+}
+
+#footer {
+    font-family: 'Maven Pro';
+    padding-left: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+    .col {
+        float:left;
+        width: 33.33%;
+        height: auto;
+    }
+    #main {
+        background-color: #efefef;
+    }
+    .introduce {
+        background-color: #efefef;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    #footer {
+        background-color: #f7f7f7;
+    }
+    .menu {
+        background-color: none;
+    }
+
+    hr {
+        border: none
+    }
+}
