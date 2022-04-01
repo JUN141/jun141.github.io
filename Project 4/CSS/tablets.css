@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+body {
+    width: 100%;
+    margin: 0%;
+}
+
+.menu__list {
+    padding-left: 0px;
+}
+.menu__list-1 {
+    color: white;   
+    font-family: 'Maven Pro';
+    margin: 0 8px;
+    display: inline-block;
+   }
+
+a {
+    text-decoration: none;
+}
+
+.banner h1 {
+    font-family: 'Maven Pro';
+    border-bottom: 80px;
+    padding-top: 230px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.banner p {
+    font-family: 'Maven Pro';
+    margin-left: 40px;
+}
+
+.margin-left-0 {
+    margin-left: 0;
+}
+
+#main {
+    font-family: 'Maven Pro';
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.size {
+    margin-bottom: 26px;
+    max-width: 100%;
+}
+
+.size__1 {
+    max-width: 100%;
+}
+
+.introduce h2 {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.introduce p {
+    padding-left: 40px;
+}
+#footer {
+    font-family: 'Maven Pro';
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+
+@media only screen and (max-width: 991px) {
+    
+    .banner{
+        background-image: none;
+        height: 10vh;
+    }
+    .banner h1 {
+        padding-top: 20px;
+        color: black;
+
+    }
+    .banner p {
+        color: black;
+    }
+    #main {
+        background-color: none;
+    }
+    #footer {
+        background-color: none;
+    }
+    .menu {
+        background-color: orange;
+    }
+}
+    @media only screen and (max-width: 991px) and (min-width: 768px) {
+    .banner h1 {
+        padding-bottom: 10px;
+        border-bottom: 1px solid orange;
+    }
+}
+
