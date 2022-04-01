@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    margin: 0%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.menu {
+    display: flex;
+    justify-content:space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    background-image:url(../img/Bentrongnhatho.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+
+.banner h1 {
+    max-width: 100%;
+    position: flex;
+    font-family: 'Inspiration';
+    justify-content: center;
+}
+
+.banner p {
+    font-family: 'Maven Pro';
+    color: white;
+}
+
+.main {
+    font-family: 'Maven Pro';
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid orange;
+}
+
+.main p {
+    margin-left: 40px;
+    text-align: justify;
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+.h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.h3 {
+    margin-left: 60px;
+}
+.margin-left-0 {
+    margin-left: 0;
+}
+
+#footer {
+    font-family: 'Maven Pro';
+    padding-left: 40px;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    .col {
+        width: 33.33%;
+    }
+    .banner {
+        font-size: 80px;
+        color: orange;
+    }
+    .main {
+        background-color: #efefef;
+    }
+
+    .footer {
+        background-color: #f7f7f7;
+    }
+
+}
